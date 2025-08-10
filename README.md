@@ -48,6 +48,7 @@ Tech stack:
   LLama3
   RAG
   FAISS (Vector DB)
+  Sentence Transformers
   
 Result:
 
