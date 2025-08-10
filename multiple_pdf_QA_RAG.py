@@ -52,15 +52,8 @@ def get_conversational_chain():
              model_name="llama-3.3-70b-versatile")
 
     prompt_template="""
-You are a legal text analyzer. Check whether the following obligation is clearly stated or fulfilled in the context below by following the below steps.
-    Note:Consider If the Vendor will replace or modify the product and remove the infringement is there in the below paragraph, the obligation is fullfilled and give pass and rationale.
-    Assume that if a company is supplying data, technology, or services, it is likely acting as a vendor — even if it’s not explicitly labeled as such.
-    Vendor name would have mentioned in the below paragraph and may not have mentioned explicitly as vendor.
-
-    Step 1: look if the infringement can be removed by vendor as mentioned in the obligation.
-    Step 2: If step 1 is true, go for step 3 or else respand as "Fail".
-    Step 3: Determine if the paragraph supports continued use of the product, either explicitly or implicitly. Check if any conditions must be met (e.g. no downgrade, no interference) and whether they are satisfied.
-    If the step 3 is true, consider obligation fulfilled and respond as "Pass" else respond as "Fail".
+You are a legal text analyzer. Check whether the following obligation is clearly stated or fulfilled in the context.
+    
 
 <context>
 {context}
