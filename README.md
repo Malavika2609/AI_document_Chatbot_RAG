@@ -41,13 +41,13 @@ Steps:
     View the generated answer based on retrieved context
     
 Tech stack:
-  Langchain
-  HuggingFace
-  Streamlit
-  Groq
-  LLama3
-  RAG
-  FAISS (Vector DB)
+  Langchain,
+  HuggingFace,
+  Streamlit,
+  Groq,
+  LLama3,
+  RAG,
+  FAISS (Vector DB),
   Sentence Transformers
   
 Result:
